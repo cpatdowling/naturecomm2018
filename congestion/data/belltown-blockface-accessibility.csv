@@ -1,0 +1,257 @@
+First number is origin-blockface, rest are neighbors that can be reached from origin blockface #notes
+121921, 55473, 9349
+81482, 9278, 13521, 32017
+81481, 9278, 13521, 32017	#opposing blockface on oneway (above)
+81454,                          #leads out of district
+81453, 24050
+81342, 30102, 30101, 35946, 35945
+81297, 74025, 74026, 13305, 13306
+81294, 52529, 52530, 13298, 81066  #Denny Way, 5th Ave, Vine St mess, note: vine street is super low traffic, u turn is entirely reasonable (13297)
+81293, 52529, 52530, 13298, 81066  #opposing blockface on oneway (above)
+81290, 6197, 6198, 81294, 81293
+81289, 6197, 6198, 81294, 81293    #opposing blockface on oneway (above)
+81066,                             #leads out of district, part of the Denny Way triangle mess
+81065, 52529, 52530, 13298         #part of Denny Way triangle mess, 1/3 of 7265 accessible
+80882, 51485                       #4th Ave and Stewart traingle, boundary of Belltown/Westlake Center
+80881, 51485		           #opposing blockface on oneway (above)
+79358, 79354, 49650, 4433
+79354, 70746, 11397, 11398
+78122, 9674, 10218                 #arterial to US-99 SB viaduct
+78118, 10213, 10214, 58677, 35942  #arterial to US-99 SB viaduct  #this would be a good one to show the relative accuracy of the blockface lat/longs
+78117, 10213, 10214, 58677, 35942  #opposing blockface on oneway (above), arterial to US-99 SB viaduct
+78042, 2789, 2790
+78041, 1033, 55429
+77574, 58814, 58813, 77570, 77569
+77573, 58814, 58813, 77570, 77569  #opposing blockface on oneway (above)
+77570, 78122
+77569, 78122 			   #opposing blockface on oneway (above)
+77349, 1034, 54669, 1029
+77226,			           #leads out of district
+77225,			           #opposing blockface on oneway (above), leads out of district
+77222, 77226, 77225, 7261, 7262
+77221, 77226, 77225, 7261, 7262    #opposing blockface on oneway (above)
+77218, 49654, 9357, 9358, 49649
+77217, 49654, 9357, 9358, 49649    #opposing blockface on oneway (above)
+77122, 75169, 75170, 32030
+77118, 25710, 25709, 32022
+76990,                  #leads out of district, opposing blockface on oneway (below)
+76989, 				   #leads out of district #Denny way triangle mess at US-99 on ramps/Elephant Car Wash
+76986, 31893, 31894, 27277
+76985, 31893, 31894, 27277  #opposing blockface on oneway (above)
+76626, 			           #Alaskan way, no immediately reachable blockfaces
+76625, 8837, 58610, 58609
+76622, 31494
+76621, 31489
+75170, 77225, 77226, 7261, 7262    #5th Ave, questionable if one can switch between blockfaces ahead (7261, 7262)
+75169, 77225, 77226, 7261, 7262    #opposing blockface on oneway (above), 5th Ave
+74034, 13349, 28958, 28957
+74033, 13349, 28958, 28957         #opposing blockface on oneway (above)
+74030, 51490, 51489, 77221, 77222
+74029, 51490, 51489, 77221, 77222  #opposing blockface on oneway (above)
+74026, 74029, 74030, 79358
+74025, 74029, 74030, 79358         #opposing blockface on oneway (above)
+72333, 54673, 4441, 4442
+72330, 54953, 32430, 27281
+72329, 54953, 32430, 27281         #opposing blockface on oneway (above)
+70758, 2785, 2786, 9721, 9722
+70757, 2785, 2786, 9721, 9722      #opposing blockface on oneway (above)
+70754, 25713, 25714, 76986, 76985
+70753, 25713, 25714, 76986, 76985  #opposing blockface on oneway (above)
+70750, 70746, 11397, 11398
+70749, 70746, 11397, 11398         #opposing blockface on oneway (above)
+70746, 25706, 25705, 35909
+68922, 1030, 77573, 77574
+68921, 32425, 68917, 9678
+68917, 58618, 58617, 24045
+58818, 36126, 36125, 55430
+58817, 1029                 	   #Western ceases being a oneway at Broad St
+58814, 58818, 58817
+58813, 58818, 58817		   #opposing blockface on oneway (above)
+58810, 54514, 81482, 81481
+58809, 54514, 81482, 81481         #opposing blockface on oneway (above)
+58806, 				   #Western Ave at northwest end of pike, no immediately accessible blockfaces
+58686, 70753, 70754, 13345
+58685, 70753, 70754, 13345         #opposing blockface on oneway (above)
+58682, 1025, 24046, 13346          #Wall street stops being a 1-way at 2nd Ave
+58681, 36114, 36113, 35941
+58677, 				   #no immediately reachable blockfaces
+58633, 46254, 13302, 13301
+58629, 58633
+58622, 4437, 81290, 81289
+58621, 4437, 81290, 81289          #opposing blockface on oneway (above)
+58618, 2781, 2782, 58622, 58621
+58617, 2781, 2782, 58622, 58621    #opposing blockface on oneway (above)
+58614, 58618, 58617, 24045
+58613, 58618, 58617, 24045  #opposing blockface on oneway (above)
+58610, 78117, 78118, 13293
+58609, 76626, 8837
+56686, 7257, 7258, 33990
+56685, 7257, 7258, 33990           #opposing blockface on oneway (above)
+56682, 1022, 46253
+55474, 56682
+55473, 55474, 58809
+55430, 1033, 78042
+55429, 36126, 58817
+54986, 72329, 32489, 32490, 4442
+54985, 72329, 32489, 32490, 4442   #opposing blockface on oneway (above)
+54954, 27281, 32430, 72330
+54953, 25717, 25718, 9677
+54673, 70757, 70758, 77349
+54669, 58818
+54514, 1021, 24038, 9354
+54513, 81482, 81481                #Only stretch of Blanchard St that isn't one way
+54305, 24041, 1026, 31890, 31889
+54009, 				   #no immediately reachable blockfaces
+52530, 35946, 35945, 30102, 30101  #5th Ave one way, monorail split
+52529, 35946, 35945, 30102, 30101  #opposing blockface on oneway (above), 5th Ave one way, monorail split
+52526, 75169, 75170, 32030
+52525, 75169, 75170, 32030      #opposing blockface on oneway (above), 5th Ave one way, monorail split
+52522, 80881, 80882
+52521, 80881, 80882                #opposing blockface on oneway (above), 5th Ave one way, monorail split
+51490, 32026, 28954, 28953
+51489, 32026, 28954, 28953         #opposing blockface on oneway (above)
+51485, 74025, 74026, 13305, 13306 
+49657, 27277, 31894, 31893
+49654, 77118
+49653, 9357, 9358, 49649
+49650, 49654, 9358, 9357
+49649, 79354, 4433
+46254, 1022
+46253, 13302, 13301, 1017
+36126, 9158, 13526
+36125, 55430, 58817
+36122, 58814, 58813, 77569, 77570
+36121, 58814, 58813, 77569, 77570  #opposing blockface on oneway (above)
+36118, 32426, 9673, 36122, 36121
+36117, 32426, 9673, 36122, 36121   #opposing blockface on oneway (above)
+36114, 36118, 36117, 58614, 58613
+36113, 36118, 36117, 58614, 58613  #opposing blockface on oneway (above)
+36110, 36114, 36113, 58682, 35941
+36109, 36114, 36113, 58682, 35941  #opposing blockface on oneway (above)
+35946, 13349, 28958, 28957
+35945, 13349, 28958, 28957         #opposing blockface on oneway (above)
+35942, 36114, 36113, 58682
+35941, 10213, 10214, 58677
+35909, 4434, 81297
+33990, 74030, 74029, 79358
+32490, 9721, 9722, 2786, 2785
+32489, 9721, 9722, 2786, 2785      #opposing blockface on oneway (above)
+32434,				   #leads out of district
+32433, 28962, 28961, 32429
+32430, 28961, 28962, 32434
+32429, 72330, 54953, 27281
+32426, 9678, 9677, 68917, 68922
+32425, 36122, 36121, 9673
+32030, 28954, 28953, 32026         #Bell st 1-way
+32026, 49653, 77118                #Bell st 1-way
+32022, 24037, 24042, 9277
+32018, 13521, 9278
+32017, 121921
+31894, 9150, 9149, 74034, 74033
+31893, 9150, 9149, 74034, 74033    #opposing blockface on oneway (above)
+31890, 76986, 76985, 25713, 25714
+31889, 76986, 76985, 25713, 25714  #opposing blockface on oneway (above)
+31498,                             #no immediate connections
+31494, 31498
+31493, 76621
+31490, 76622
+31489,                             #leads out of district
+30102, 52525, 76989, 76990, 52526
+30101, 52525, 76989, 76990, 52526	       #opposing blockface on oneway (above), 5th Ave oneway
+28962, 54985, 54986
+28961, 54985, 54986                #opposing blockface on oneway (above)
+28958, 6198, 6197, 81294, 81293
+28957, 6198, 6197, 81294, 81293    #opposing blockface on oneway (above)
+28954, 74034, 74033, 9150, 9149
+28953, 74034, 74033, 9150, 9149    #opposing blockface on oneway (above)
+27281, 4437, 81290, 81289
+27277, 49653, 77118
+25718, 2782, 2781, 58622, 58621
+25717, 2782, 2781, 58622, 58621    #opposing blockface on oneway (above)
+25714, 25710, 25709, 32022
+25713, 25710, 25709, 32022         #opposing blockface on oneway (above)
+25710, 70750, 77218, 77217, 70749
+25709, 70750, 77218, 77217, 70749         #opposing blockface on oneway (above)
+25706, 				   #leads out of district
+25705, 			           #leads out of district #opposing blockface on oneway (above)
+24050, 9157
+24049, 81454
+24046, 58618, 58617
+24045, 13346, 58681, 1025
+24042, 31890, 31889, 1026
+24041, 9277, 24037
+24038, 24042, 9277
+24037, 54513, 9354, 9353, 1021
+13526, 				   #leads out of district
+13521, 36110, 36109, 9145, 9146, 54305		#Western Ave exit on US-99 NB
+13518, 58806, 58629
+13349, 58685, 58686, 4438, 49657
+13346, 70753, 70754
+13345, 24046, 58681, 1025
+13309, 				   #leads out of district
+13306, 13309, 52521, 52522
+13305, 13309, 52521, 52522         #opposing blockface on oneway (above)
+13302, 25705, 25706, 35909
+13301, 25705, 25706, 35909	   #opposing blockface on oneway (above)
+13298, 				   #leads out of district
+13297, 81066, 52530, 52529
+13293, 58614, 58613, 36118, 36117
+11398, 1022, 46253	           #Lenora St becomes two way at 1st Ave
+11397, 1022, 46253		   #opposing blockface on oneway (above)
+10222, 78122
+10218, 58609, 13293
+10214, 10210, 10209
+10213, 10210, 10209		   #opposing blockface on oneway (above)
+10210, 32018, 121921
+10209, 32018, 121921               #opposing blockface on oneway (above)
+9722, 77574, 77573, 1030, 68921
+9721, 77574, 77573, 1030, 68921    #opposing blockface on oneway (above)
+9678, 25717, 25718, 54954
+9677, 68922, 32425, 68917
+9674, 36122, 36121, 32426
+9673, 10218
+9358, 77222, 77221, 51490, 51489
+9357, 77222, 77221, 51490, 51489   #opposing blockface on oneway (above)
+9354, 77218, 77217, 70750, 70749
+9353, 77218, 77217, 70750, 70749          #opposing blockface on oneway (above)
+9349, 54514, 81482, 81481   #can't find coordinate neighbors, read from BF 58809 file
+9278, 24037, 24042
+9277, 13521, 32017
+9158, 24049
+9157, 13526, 36125
+9150, 76989, 52525, 52526
+9149, 76989, 52525, 52526		   #opposing blockface on oneway (above)
+9146, 10210, 10209
+9145, 10210, 10209		   #opposing blockface on oneway (above)
+8841, 76625
+8837, 			           #no immediate connections
+7266, 13298, 13297, 52530, 52529   #part of denny triangle mess
+7265, 13298, 13297, 52530, 52529   #opposing blockface on oneway (above) #part of denny triangle mess
+7262, 33990, 7258, 7257		   #5th Ave split
+7261, 33990, 7258, 7257		   #opposing blockface on oneway (above) #5th Ave monorail split
+7258, 52522, 13309, 52521
+7257, 52522, 13309, 52521          #opposing blockface on oneway (above)
+6198, 28962, 32434, 28961, 32429
+6197, 28962, 32434, 28961, 32429   #opposing blockface on oneway (above)
+4442, 54673,
+4441, 32489, 32490, 72329
+4438, 81290, 81289
+4437, 58685, 58686, 49657
+4434, 49650, 79354
+4433, 				   #no immediate connections (leads out of district, VA or Stewart St?)
+2790, 77349, 70757, 70758
+2789, 77349, 70757, 70758          #opposing blockface on oneway (above)
+2786, 25718, 25717, 9677, 54954
+2785, 25718, 25717, 9677, 54954    #opposing blockface on oneway (above)
+2782, 70754, 70753, 13345
+2781, 70754, 70753, 13345	   #opposing blockface on oneway (above)
+1034, 78042, 55429
+1033, 54669, 1029
+1030, 54669, 1034
+1029, 77573, 77574, 68921
+1026, 24046, 58681, 13346
+1025, 31889, 31890, 24041
+1022, 24038, 9354, 9353, 54514     #Blanchard St oneway at 1st Ave and between Western/Elliott
+1021, 46253
+1018, 46254	                   #Stupidly small stretch of parking at 1st Ave and Stewart, read from 46254 BF file
+1017,   		           #Stupidly small stretch of parking at 1st Ave and Stewart, read into BF 46253 above, leads out of district

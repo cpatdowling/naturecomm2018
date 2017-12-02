@@ -1,0 +1,41 @@
+#directories
+daily_loads: contains average hourly block-face occupancies calculated from SDOT
+             transaction data for Q2 of 2016; row number corresponds to the alphanumeric
+             index order of block-face element keys specified in ekeys_2016Q2.pck,
+             columns are left-binned hours e.g. 9:00 AM occupancy is the average occupancy
+             over 9:00-9:59 AM.
+rej_rates_localuniform_fixservice_2016Q2: three file types per day (effective_arrivals,
+                                          rejections, and true_arrivals) by hour. row
+                                          number corresponds to the alphanumeric index
+                                          order of block-face element keys specified 
+                                          in ekeys_2016Q2.pck, columns are left-binned hours
+                                          e.g. 9:00 AM occupancy is the average occupancy
+                                          over 9:00-9:59 AM. Values are inter-arrival times
+                                          in minutes (inverse of occurences per minute)
+travel_times:
+
+#files
+ekeys_2016Q2.pck: serialized (pickle) numpy array of integer blockface elementkeys
+                  element keys are unique integer id's used by SDOT
+loads_2016Q2.pck: serialized (pickle) numpy array of shape (256, 72), where each row
+              corresponds to an element key in ascending order. Each column corresponds
+              to a hour and day, beginning with Monday and ending Saturday, for 8 AM to 8 PM
+supplies_2016Q2: rows are block-faces by element key, columns are dates in header
+                 values are the supply of available parking spaces as reported by SDOT
+dailysupply_modes_2016Q2: rows are element key in ascending order, values are the mode
+                          of the supplies_2016Q2 values across days, used in calculating rejection
+                          rates, 13 of the 256 undergo a supply change due to closure or
+                          reallocation of space in Q2 of 2016
+out_degree_distribution: a length 256 csv numpy array of outbound block-face connections per block
+                         lower bounded at 1 for block-faces that lead out of Belltown
+ekeytolatlong_2016Q2: serialized python dictionary, values are two pairs of 
+                      latitude/longitude coordinates that denote the endpoints by
+                      the element key of block-face
+belltown-blockface-accessibility: a csv of block-face element keys. The first value
+                                  of each row is the ``origin'' block-face, while
+                                  any following values are block-faces that can be 
+                                  reached by a driver using legal manuevers
+                                  no values implies no immediately connected block-faces
+                                  notes on block-face follow the list delimited with # 
+
+

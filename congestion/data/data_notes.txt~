@@ -1,0 +1,14 @@
+ekeys_2016Q2.pck: serialized (pickle) numpy array of integer blockface elementkeys
+                  element keys are unique integer id's used by SDOT
+loads_2016Q2.pck: serialized (pickle) numpy array of shape (256, 72), where each row
+              corresponds to an element key in ascending order. Each column corresponds
+              to a hour and day, beginning with Monday and ending Saturday, for 8 AM to 8 PM
+supplies_2016Q2: rows are block-faces by element key, columns are dates in header
+                 values are the supply of available parking spaces as reported by SDOT
+dailysupply_modes_2016Q2: rows are element key in ascending order, values are the mode
+                          of the supplies_2016Q2 values across days, used in calculating rejection
+                          rates, 13 of the 256 undergo a supply change due to closure or
+                          reallocation of space in Q2 of 2016
+out_degree_distribution: a length 256 csv numpy array of outbound block-face connections per block
+                         lower bounded at 1 for block-faces that lead out of Belltown
+
