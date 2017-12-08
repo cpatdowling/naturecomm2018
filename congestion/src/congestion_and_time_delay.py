@@ -42,7 +42,11 @@ fl = 22
 fs = 20
 fs_ = 22
 
-day = sys.argv[1]
+try:
+    day = sys.argv[1]
+    print(:calculating for day: " + day)
+except:
+    print("Defaulting to Tuesday. Try other days (except Sunday), example: python congestion_time_delay.py Monday")
 
 #blockface indecies along first avenue north and southbound
 first_north = [1018, 46254, 1022, 24042, 1026, 24046, 68922, 1030, 1034]
