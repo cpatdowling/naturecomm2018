@@ -2,12 +2,12 @@
 Neccessariy code and data to reproduce results contain in "Fusing multiple data streams to control urban congestion caused by drivers searching for curbside parking" by Chase Dowling, Tanner Fiez, Lillian Ratliff, and Baosen Zhang, submitted to Science Advances in December, 2017.
 
 This repository contains two main directories:
-    -nature/congestion: code and data neccessary to reproduce congestion and time delay estimation results
-    -nature/spatial-data-analysis: a git submodule (owned by Tanner Fiez, <https://github.com/fiezt/spatial-data-analysis>) containing code and data neccessary to reproduce GMM model results
+    -./congestion: code and data neccessary to reproduce congestion and time delay estimation results
+    -./spatial-data-analysis: a git submodule (owned by Tanner Fiez, <https://github.com/fiezt/spatial-data-analysis>) containing code and data neccessary to reproduce GMM model results
     
 Instructions for re-executing code can be found in each respective directory. 
 
-Note nature/congestion/data contains all essential data for both experiment directories, as well as a data manifest (data_notes.txt) with detailed descriptions of the contents of each data file and subdirectory.
+Note ./congestion/data contains all essential data for both experiment directories, as well as a data manifest (data_notes.txt) with detailed descriptions of the contents of each data file and subdirectory.
 
 ## basic dependencies
 
