@@ -1,5 +1,5 @@
-# sciadvances2018
-Neccessariy code and data to reproduce results contain in "Fusing multiple data streams to control urban congestion caused by drivers searching for curbside parking" by Chase Dowling, Tanner Fiez, Lillian Ratliff, and Baosen Zhang, submitted to Science Advances in December, 2017.
+# IEEE Transactions on Intelligent Transportation Systems
+Neccessariy code and data to reproduce results contain in "Fusing multiple data streams to control urban congestion caused by drivers searching for curbside parking" by Chase Dowling, Tanner Fiez, Lillian Ratliff, and Baosen Zhang, submitted to IEEE Transactions on Intelligent Transportation Systems, 2019.
 
 This repository contains two main directories:
     -./congestion: code and data neccessary to reproduce congestion and time delay estimation results
