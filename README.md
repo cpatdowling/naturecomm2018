@@ -1,5 +1,5 @@
 ## "Modeling Parking as a Network of Finite Capacity Queues" (2019), IEEE Transactions on ITS
-Neccessariy code and data to reproduce results contain in "Modeling parking as a network of finite capacity queues" by Chase Dowling, Lillian Ratliff, and Baosen Zhang, submitted to IEEE Transactions on Intelligent Transportation Systems, 2019.
+Neccessariy code and data to reproduce results contain in ["Modeling parking as a network of finite capacity queues"](https://ieeexplore.ieee.org/abstract/document/8663628) by Chase Dowling, Lillian Ratliff, and Baosen Zhang, published in IEEE Transactions on Intelligent Transportation Systems, 2019.
 
 This repository contains two main directories:
     -./congestion: code and data neccessary to reproduce congestion and time delay estimation results
